@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Leowa Associates services — Capacity Building, M&E, Project Management, Training, Strategic Planning, and School Management Systems across East Africa." />
+  <title>Services | Leowa Associates Limited</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">L</div>
+      <div class="logo-text">
+        <strong>Leowa Associates</strong>
+        <span>Management Consulting &amp; ICT</span>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="products.html">Products</a>
+      <a href="clients.html">Clients</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Get in Touch</a>
+    <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Products</a>
+    <a href="clients.html">Clients</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Services</span></div>
+    <h1>Our Services</h1>
+    <p>Comprehensive management consulting, ICT solutions, and education technology services tailored for East African organizations.</p>
+  </div>
+</section>
+
+<!-- SERVICE FILTER TABS -->
+<section class="section-sm" style="background:#f8fbff; border-bottom:1px solid #e3f2fd;">
+  <div class="container">
+    <div class="tabs-wrapper" data-tabs>
+      <button class="tab-btn active" data-tab="all">All Services</button>
+      <button class="tab-btn" data-tab="consulting">Management Consulting</button>
+      <button class="tab-btn" data-tab="ict">ICT &amp; Technology</button>
+      <button class="tab-btn" data-tab="schools">School Systems</button>
+      <button class="tab-btn" data-tab="agri">Agri-Business</button>
+    </div>
+  </div>
+</section>
+
+<!-- ALL SERVICES -->
+<section class="section" id="all">
+  <div class="container">
+
+    <!-- ===== CONSULTING SERVICES ===== -->
+    <div id="capacity" style="margin-bottom:4rem;">
+      <p class="eyebrow reveal">Management Consulting</p>
+      <h2 class="reveal" style="color:#0a1f44; margin-bottom:2rem;">Building Stronger Organizations</h2>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon">🏛️</div>
+          <h3>Institutional Capacity Building</h3>
+          <p>Strengthening the governance, systems, human resources, and management structures of organizations to improve performance and ensure long-term sustainability.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[0])">Learn More →</button>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1" id="me">
+          <div class="service-icon">📊</div>
+          <h3>Monitoring &amp; Evaluation</h3>
+          <p>Design and implementation of rigorous M&E frameworks, baseline studies, evaluations, and data management systems for international development programs.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[1])">Learn More →</button>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2" id="projects">
+          <div class="service-icon">📋</div>
+          <h3>Project Management</h3>
+          <p>End-to-end project design, planning, implementation, monitoring, and close-out — fully aligned to donor frameworks and international project management standards.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[2])">Learn More →</button>
+        </div>
+
+        <div class="service-card reveal" id="training">
+          <div class="service-icon">🎓</div>
+          <h3>Training &amp; Capacity Development</h3>
+          <p>Customized training programs for organizations and individuals across leadership, technical skills, financial management, and organizational development themes.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[3])">Learn More →</button>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1" id="strategic">
+          <div class="service-icon">🗺️</div>
+          <h3>Strategic &amp; Business Planning</h3>
+          <p>Facilitated strategic planning, business development, feasibility studies, and investment proposal preparation to guide organizational growth and fund mobilization.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[4])">Learn More →</button>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">💼</div>
+          <h3>Financial Management &amp; Advisory</h3>
+          <p>Financial systems design, budgeting support, donor financial reporting, and organizational financial health assessments for NGOs, cooperatives, and businesses.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[5])">Learn More →</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ===== SCHOOL MANAGEMENT ===== -->
+    <div id="schools" style="margin-bottom:4rem; padding-top:2rem; border-top:2px solid #e3f2fd;">
+      <p class="eyebrow reveal">Education Technology</p>
+      <h2 class="reveal" style="color:#0a1f44; margin-bottom:1rem;">School Management Systems</h2>
+      <p class="reveal" style="color:#4a6a9c; max-width:720px; margin-bottom:2.5rem; line-height:1.8;">Inspired by leading global platforms like ManageBac, our school management system is a comprehensive, curriculum-first learning platform designed for African schools — covering everything from lesson planning to parent communication.</p>
+
+      <!-- School Feature Grid -->
+      <div class="school-features-grid" style="margin-bottom:2.5rem;">
+        <div class="school-feat reveal">
+          <div class="sf-icon">📖</div>
+          <h4>Curriculum Planning</h4>
+          <p>Plan, align, and map curriculum across subjects and grade levels with built-in CBC, IGCSE, and IB frameworks.</p>
+        </div>
+        <div class="school-feat reveal reveal-delay-1">
+          <div class="sf-icon">🧑‍🏫</div>
+          <h4>Teaching &amp; Learning</h4>
+          <p>Lesson plans, class resources, assignment submission, and teaching activity tracking — all for the teacher dashboard.</p>
+        </div>
+        <div class="school-feat reveal reveal-delay-2">
+          <div class="sf-icon">📝</div>
+          <h4>Assessment &amp; Gradebook</h4>
+          <p>Full end-to-end assessment management — quizzes, exams, rubric marking, and automatic grade calculations.</p>
+        </div>
+        <div class="school-feat reveal">
+          <div class="sf-icon">📋</div>
+          <h4>Attendance Tracking</h4>
+          <p>Daily attendance capture per class or subject, automated parent alerts, and real-time admin dashboards.</p>
+        </div>
+        <div class="school-feat reveal reveal-delay-1">
+          <div class="sf-icon">📊</div>
+          <h4>Report Cards &amp; Transcripts</h4>
+          <p>Customizable term reports and cumulative transcripts auto-generated from gradebook data and teacher inputs.</p>
+        </div>
+        <div class="school-feat reveal reveal-delay-2">
+          <div class="sf-icon">💬</div>
+          <h4>Parent Communication</h4>
+          <p>Integrated messaging for announcements, progress updates, and two-way parent-teacher communication.</p>
+        </div>
+        <div class="school-feat reveal">
+          <div class="sf-icon">🔒</div>
+          <h4>Role-Based Access</h4>
+          <p>Secure portals for admins, teachers, students, and parents — each with tailored dashboards and permissions.</p>
+        </div>
+        <div class="school-feat reveal reveal-delay-1">
+          <div class="sf-icon">📱</div>
+          <h4>Mobile Accessible</h4>
+          <p>Fully responsive on phones, tablets, and desktops — ensuring the whole school community stays connected.</p>
+        </div>
+      </div>
+
+      <!-- School Deep-Dive Accordions -->
+      <div class="section-header reveal" style="text-align:left; max-width:100%; margin-bottom:1.5rem;">
+        <h3 style="color:#0a1f44;">Frequently Asked Questions — School Systems</h3>
+      </div>
+      <div class="accordion-item reveal">
+        <button class="accordion-trigger">Which curricula does the school management system support? <span class="acc-icon">+</span></button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">Our school management system supports multiple curricula including Kenya's Competency-Based Curriculum (CBC), the British IGCSE and A-Level framework, the International Baccalaureate (IB) PYP, MYP and Diploma programmes, and national curricula from Uganda and Tanzania. Schools running multiple curricula can manage all pathways from a single platform.</div>
+        </div>
+      </div>
+      <div class="accordion-item reveal">
+        <button class="accordion-trigger">How does the assessment module work? <span class="acc-icon">+</span></button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">Teachers can create formative and summative assessments, set rubrics, mark online or offline submissions, and record grades directly into the gradebook. The system auto-calculates subject totals, generates grade distributions, and flags at-risk students for teacher follow-up. Results flow automatically into report card templates at the end of every term.</div>
+        </div>
+      </div>
+      <div class="accordion-item reveal">
+        <button class="accordion-trigger">Can parents track their child's progress in real time? <span class="acc-icon">+</span></button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">Yes. Parents have a dedicated portal where they can view attendance records, upcoming assignments, assessment results, teacher comments, and school-wide announcements. They can also message teachers directly through the built-in communication system — no third-party app required.</div>
+        </div>
+      </div>
+      <div class="accordion-item reveal">
+        <button class="accordion-trigger">Is the system cloud-based or can it be hosted locally? <span class="acc-icon">+</span></button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">We offer both options. The default is a secure cloud-hosted deployment that requires no on-site server infrastructure — ideal for most Kenyan schools. For schools with specific data residency requirements or limited internet connectivity, we can configure a hybrid or on-premises deployment. All data is encrypted and backed up regularly regardless of deployment mode.</div>
+        </div>
+      </div>
+      <div class="accordion-item reveal">
+        <button class="accordion-trigger">What training and support is provided after implementation? <span class="acc-icon">+</span></button>
+        <div class="accordion-body">
+          <div class="accordion-body-inner">All schools receive an onboarding training package for administrators and teachers. We provide a dedicated implementation support period, user manuals, video tutorials, and ongoing email and phone support. Schools on premium support plans receive a dedicated account manager and quarterly system reviews to ensure they're getting maximum value.</div>
+        </div>
+      </div>
+
+      <div style="margin-top:2rem;">
+        <button class="btn btn-primary" onclick="openModal(allServices[6])">Full Platform Details →</button>
+        <a href="contact.html" class="btn btn-outline" style="margin-left:1rem;">Request a Demo</a>
+      </div>
+    </div>
+
+    <!-- ===== AGRI-BUSINESS ===== -->
+    <div id="agri" style="padding-top:2rem; border-top:2px solid #e3f2fd;">
+      <p class="eyebrow reveal">Agri-Business</p>
+      <h2 class="reveal" style="color:#0a1f44; margin-bottom:1rem;">Agricultural &amp; Cooperative Solutions</h2>
+      <p class="reveal" style="color:#4a6a9c; max-width:720px; margin-bottom:2.5rem; line-height:1.8;">We support Coffee, Dairy, and Cereal farmers and cooperatives — helping them access finance, increase productivity, and make farming commercially viable through our SYSCOOP platform.</p>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🌾</div>
+          <h3>Cooperative Digitization</h3>
+          <p>Digital transformation of cooperative management — from member registration to payment processing — using SYSCOOP Agri ERP.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[7])">Learn More →</button>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">☕</div>
+          <h3>Coffee &amp; Dairy Value Chain</h3>
+          <p>End-to-end digitization of coffee and milk collection, weighing, quality grading, and farmer payment workflows for cooperatives.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[8])">Learn More →</button>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">🌱</div>
+          <h3>Farmer Access to Finance</h3>
+          <p>Advisory and systems support helping smallholder farmers access credit, inputs financing, and structured market linkages through digital records.</p>
+          <button class="learn-more-btn" onclick="openModal(allServices[9])">Learn More →</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <h2>Not Sure Which Service You Need?</h2>
+    <p>Talk to our team and we'll help you identify the right solution for your organization's specific challenges and goals.</p>
+    <div class="cta-actions">
+      <a href="contact.html" class="btn btn-white">Schedule a Free Consultation</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <div class="logo-mark">L</div>
+          <div class="logo-text">
+            <strong style="color:#fff;">Leowa Associates</strong>
+            <span style="color:#42a5f5;">Management Consulting &amp; ICT</span>
+          </div>
+        </div>
+        <p>African-led management consulting and ICT solutions. HighView Plaza, Kiambu Road, Nairobi, Kenya.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html">Capacity Building</a></li>
+          <li><a href="services.html">M&amp;E</a></li>
+          <li><a href="services.html">Project Management</a></li>
+          <li><a href="services.html">School Systems</a></li>
+          <li><a href="services.html">Agri Solutions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+254728843553">+254 728 843 553</a></li>
+          <li><a href="mailto:info@leowassociates.co.ke">info@leowassociates.co.ke</a></li>
+          <li><a href="#">HighView Plaza, Kiambu Road, Nairobi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Leowa Associates Limited. All rights reserved.</p>
+      <div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="serviceModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-icon" id="modal-icon">🏛️</div>
+    <h2 id="modal-title"></h2>
+    <p class="modal-intro" id="modal-intro"></p>
+    <div class="modal-features" id="modal-features"></div>
+    <div class="modal-clients" id="modal-clients-section">
+      <h4>Related Clients &amp; Partners</h4>
+      <div class="client-tags" id="modal-clients"></div>
+    </div>
+    <div style="margin-top:1.75rem;">
+      <a href="contact.html" class="btn btn-primary" onclick="closeModal()" style="width:100%;justify-content:center;">Request This Service</a>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+<script>
+const allServices = [
+  { icon:'🏛️', title:'Institutional Capacity Building', intro:'We work with organizations across East Africa to strengthen governance, systems, and human resources — building internal capacity for sustained performance and results delivery.', features:[{icon:'📐',title:'Organizational Diagnosis',desc:'Comprehensive assessment of existing systems, structures, and processes to identify improvement priorities.'},{icon:'🔧',title:'Systems Strengthening',desc:'Designing improved operational workflows and management tools.'},{icon:'👥',title:'Governance & Leadership',desc:'Board development, governance policy formulation, and accountability frameworks.'},{icon:'📈',title:'Performance Management',desc:'KPIs, staff appraisal systems, and performance review cycles.'},{icon:'🔁',title:'Change Management',desc:'Structured change plans and stakeholder engagement for institutional transitions.'}], clients:['USAID','World Bank','DANIDA','FAO','County Governments','SACCOs']},
+  { icon:'📊', title:'Monitoring & Evaluation (M&E)', intro:'Rigorous M&E design and implementation for international development agencies — providing credible evidence of impact and actionable learning.', features:[{icon:'🗺️',title:'M&E Framework Design',desc:'Results Frameworks, Theories of Change, MEL plans and indicator matrices.'},{icon:'📋',title:'Baseline & Endline Studies',desc:'Quantitative and qualitative surveys with statistically sound sampling.'},{icon:'🔍',title:'Program Evaluations',desc:'Independent assessments on relevance, efficiency, effectiveness, impact and sustainability.'},{icon:'📡',title:'Data Systems & MEAL',desc:'Digital data collection systems and real-time monitoring dashboards.'},{icon:'📝',title:'Learning & Knowledge Management',desc:'After-action reviews, pause-and-reflect sessions, and learning briefs.'}], clients:['USAID Feed the Future','World Bank','DANIDA','FAO','WWF','John Deere Foundation']},
+  { icon:'📋', title:'Project Management', intro:'End-to-end project design and management — from concept to close-out — fully aligned to donor requirements and international standards.', features:[{icon:'📌',title:'Project Design & Proposals',desc:'Compelling, technically sound project concepts and full donor proposals.'},{icon:'📅',title:'Work Planning',desc:'Detailed implementation plans with Gantt charts and milestone tracking.'},{icon:'💰',title:'Budget Management',desc:'Budget preparation, cost monitoring, variance analysis, and donor financial reporting.'},{icon:'🤝',title:'Stakeholder Coordination',desc:'Managing relationships with governments, funders, partners, and beneficiaries.'},{icon:'📦',title:'Procurement & Logistics',desc:'Donor-compliant procurement processes ensuring value-for-money.'}], clients:['USAID','World Bank','DANIDA','Government Ministries','County Governments']},
+  { icon:'🎓', title:'Training & Capacity Development', intro:'Transformative training programs that build skills, knowledge, and attitudes for high performance — customized to your organization\'s specific needs.', features:[{icon:'📚',title:'Needs Assessment',desc:'Training needs assessments to identify skill gaps and design learning interventions.'},{icon:'🏫',title:'Customized Curricula',desc:'Bespoke curricula, manuals and facilitation guides for leadership and technical topics.'},{icon:'🖥️',title:'In-Person & Online Delivery',desc:'Workshops, seminars, and online programs with experienced multilingual trainers.'},{icon:'🔄',title:'Training of Trainers (ToT)',desc:'Building internal training capacity for cascade delivery at scale.'},{icon:'📊',title:'Post-Training Evaluation',desc:'Measuring learning outcomes and behavior change using proven evaluation frameworks.'}], clients:['USAID','NGOs','County Governments','SACCOs','Private Companies']},
+  { icon:'🗺️', title:'Strategic & Business Planning', intro:'We help organizations define their direction, set achievable goals, and build operational roadmaps — enabling confident leadership and sustainable growth.', features:[{icon:'🔭',title:'Strategic Plan Development',desc:'Participatory strategic planning processes producing 3–5 year plans with real ownership.'},{icon:'📊',title:'Business Development Planning',desc:'Business plans for new ventures with market analysis, financials, and risk assessments.'},{icon:'💡',title:'Feasibility Studies',desc:'Technical, financial, and market feasibility studies to validate business ideas.'},{icon:'🏦',title:'Investment Proposals',desc:'Bankable investment cases for private investors and development finance institutions.'},{icon:'📈',title:'Operational Planning',desc:'Annual workplans with resource plans, OKRs, and accountability structures.'}], clients:['SACCOs','Cooperatives','NGOs','Private Businesses','Government Agencies']},
+  { icon:'💼', title:'Financial Management & Advisory', intro:'We help organizations build robust financial management systems, improve accountability, and meet donor reporting requirements.', features:[{icon:'📂',title:'Financial Systems Design',desc:'Chart of accounts, financial policies, and accounting system setup.'},{icon:'📑',title:'Donor Financial Reporting',desc:'Preparation of accurate, timely donor financial reports in required formats.'},{icon:'🔎',title:'Financial Health Assessments',desc:'Diagnosing financial management weaknesses and recommending improvements.'},{icon:'📒',title:'Budgeting Support',desc:'Annual budgeting facilitation, budget monitoring, and forecasting.'},{icon:'✅',title:'Audit Preparation',desc:'Preparing organizations for external audits and ensuring documentation compliance.'}], clients:['NGOs','SACCOs','Cooperatives','Government Agencies']},
+  { icon:'🏫', title:'School Management System', intro:'A comprehensive, curriculum-first digital platform for schools — covering curriculum planning, teaching & learning, assessment, attendance, reporting, and parent communication. Supports CBC, IGCSE, IB, and more.', features:[{icon:'📖',title:'Curriculum Planning',desc:'Plan, align and map curriculum across subjects and grades with CBC, IGCSE, IB standards.'},{icon:'📝',title:'Assessment & Gradebook',desc:'End-to-end assessment management with rubric marking and auto-calculated grades.'},{icon:'📋',title:'Attendance & Reporting',desc:'Daily attendance capture, automated parent alerts, and customizable term report cards.'},{icon:'💬',title:'Parent Communication',desc:'Integrated messaging for school-community engagement and parent-teacher interaction.'},{icon:'🔒',title:'Role-Based Portals',desc:'Separate secure dashboards for admins, teachers, students, and parents.'},{icon:'📱',title:'Mobile-Friendly',desc:'Fully responsive on phones, tablets, and desktops for the whole school community.'}], clients:['International Schools','Private Primary Schools','Public Secondary Schools','County Education Offices']},
+  { icon:'🌾', title:'Cooperative Digitization', intro:'Complete digital transformation of cooperative management operations — from member registration to payment processing — using our SYSCOOP Agri ERP platform.', features:[{icon:'👤',title:'Member Management',desc:'Digital member registry, share contribution tracking, and loan management.'},{icon:'⚖️',title:'Collection & Weighing',desc:'Digital recording of coffee, milk, and cereal deliveries at collection points.'},{icon:'💳',title:'Payment Processing',desc:'Automated farmer payment calculation and M-Pesa/bank disbursement integration.'},{icon:'📡',title:'Field Monitoring',desc:'Real-time field operation visibility from any device, anywhere.'},{icon:'📊',title:'Management Reports',desc:'Financial, production, and member performance reports for cooperative leadership.'}], clients:['Coffee Cooperatives','Dairy Cooperatives','Cereal Cooperatives','County Governments']},
+  { icon:'☕', title:'Coffee & Dairy Value Chain', intro:'End-to-end digitization of coffee and dairy value chains — from farm to payment — helping cooperatives improve transparency, speed, and farmer satisfaction.', features:[{icon:'🌡️',title:'Quality Grading',desc:'Digital quality assessment and grading at collection points with farmer feedback loops.'},{icon:'📦',title:'Supply Chain Tracking',desc:'Full traceability from farm delivery to factory or market — linked to individual farmers.'},{icon:'💰',title:'Price Management',desc:'Dynamic price setting, deduction management, and automatic payment computation.'},{icon:'📋',title:'Compliance & Audit',desc:'Full audit trails for cooperative governance and external auditor access.'},{icon:'📈',title:'Productivity Analytics',desc:'Farm-level and cooperative-level productivity analytics to drive improvement.'}], clients:['Central Kenya Coffee Cooperative','Dairy Cooperatives','USAID Feed the Future','FAO']},
+  { icon:'🌱', title:'Farmer Access to Finance', intro:'Advisory and digital systems support helping smallholder farmers build the digital financial records and market linkages needed to access credit, input financing, and fair market prices.', features:[{icon:'📒',title:'Digital Farm Records',desc:'Building creditworthy digital farm records that satisfy lender requirements.'},{icon:'🏦',title:'Financial Linkages',desc:'Connecting cooperatives and farmers to banks, MFIs, and agri-finance providers.'},{icon:'🌐',title:'Market Linkages',desc:'Digital platforms connecting farmers to buyers, processors, and exporters.'},{icon:'📚',title:'Financial Literacy Training',desc:'Practical training for farmers on saving, borrowing, and financial planning.'},{icon:'🔄',title:'Input Financing Support',desc:'Advisory on structured input credit schemes through cooperative channels.'}], clients:['USAID Feed the Future','World Bank','John Deere Foundation','FAO','Smallholder Cooperatives']}
+];
+</script>
+</body>
+</html>

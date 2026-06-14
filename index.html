@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Leowa Associates Limited — African-led management consulting and ICT solutions firm based in Nairobi, Kenya. Serving East Africa with 300+ clients and 500+ completed projects." />
+  <title>Home | Leowa Associates Limited</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">L</div>
+      <div class="logo-text">
+        <strong>Leowa Associates</strong>
+        <span>Management Consulting &amp; ICT</span>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="products.html">Products</a>
+      <a href="clients.html">Clients</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Get in Touch</a>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Products</a>
+    <a href="clients.html">Clients</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">🌍 African-Led · East Africa's Trusted Consultants</div>
+        <h1>Transforming <em>African</em> Organizations Through Expert Consulting</h1>
+        <p>Leowa Associates delivers world-class management consulting and ICT solutions across Kenya, Uganda, and Tanzania — backed by 20+ years of regional expertise.</p>
+        <div class="hero-actions">
+          <a href="services.html" class="btn btn-primary">Explore Our Services</a>
+          <a href="about.html" class="btn btn-outline" style="border-color:rgba(255,255,255,0.4);color:#fff;">Who We Are</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="number" data-count="300" data-suffix="+">0+</span>
+            <span class="label">Clients Served</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number" data-count="500" data-suffix="+">0+</span>
+            <span class="label">Projects Completed</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number" data-count="20" data-suffix="+">0+</span>
+            <span class="label">Years Experience</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card reveal">
+          <div class="hero-card-icon">🏛️</div>
+          <h4>Management Consulting</h4>
+          <p>Strategic planning, capacity building & institutional development across East Africa.</p>
+        </div>
+        <div class="hero-card reveal reveal-delay-1">
+          <div class="hero-card-icon">💻</div>
+          <h4>ICT &amp; Software Solutions</h4>
+          <p>Custom ERP systems, SYSCOOP Agri, bookkeeping software & bulk SMS tools.</p>
+        </div>
+        <div class="hero-card reveal reveal-delay-2">
+          <div class="hero-card-icon">🏫</div>
+          <h4>School Management Systems</h4>
+          <p>End-to-end digital platforms for curriculum, assessment, attendance & reporting.</p>
+        </div>
+        <div class="hero-card reveal reveal-delay-3">
+          <div class="hero-card-icon">🌾</div>
+          <h4>Agri-Business Solutions</h4>
+          <p>Digitizing coffee, dairy & cereal value chains for cooperatives & smallholder farmers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLIENTS STRIP ===== -->
+<section class="clients-strip">
+  <div class="container">
+    <p class="clients-label">Trusted by leading organizations across East Africa</p>
+    <div class="clients-row">
+      <span class="client-pill">USAID</span>
+      <span class="client-pill">World Bank</span>
+      <span class="client-pill">DANIDA</span>
+      <span class="client-pill">FAO</span>
+      <span class="client-pill">WWF</span>
+      <span class="client-pill">John Deere Foundation</span>
+      <span class="client-pill">Government of Kenya</span>
+      <span class="client-pill">County Governments</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES OVERVIEW ===== -->
+<section class="section" style="background:#f8fbff;">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">What We Do</p>
+      <h2>Comprehensive Consulting &amp; ICT Services</h2>
+      <p>We provide end-to-end professional services designed to help organizations grow, improve efficiency, and achieve lasting impact across East Africa.</p>
+    </div>
+    <div class="services-grid">
+
+      <!-- Service 1 -->
+      <div class="service-card reveal">
+        <div class="service-icon">🏛️</div>
+        <h3>Institutional Capacity Building</h3>
+        <p>We help organizations streamline operations, strengthen governance structures, and build the internal competencies needed for long-term sustainability.</p>
+        <button class="learn-more-btn" onclick="openModal(servicesData[0])">Learn More →</button>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">📊</div>
+        <h3>Monitoring &amp; Evaluation (M&amp;E)</h3>
+        <p>Rigorous M&amp;E assignments for international development agencies — measuring impact, tracking outcomes, and informing data-driven decision-making.</p>
+        <button class="learn-more-btn" onclick="openModal(servicesData[1])">Learn More →</button>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">📋</div>
+        <h3>Project Management</h3>
+        <p>From concept design to final delivery, we manage complex projects with alignment to donor requirements, ensuring quality and timeliness at every stage.</p>
+        <button class="learn-more-btn" onclick="openModal(servicesData[2])">Learn More →</button>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="service-card reveal">
+        <div class="service-icon">🎓</div>
+        <h3>Training &amp; Capacity Building</h3>
+        <p>Specialized management training programs tailored to organizational needs — from leadership development to technical skills for teams and institutions.</p>
+        <button class="learn-more-btn" onclick="openModal(servicesData[3])">Learn More →</button>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">🗺️</div>
+        <h3>Strategic &amp; Business Planning</h3>
+        <p>We formulate clear strategic roadmaps, business development proposals, and investment cases that align with organizational goals and funder priorities.</p>
+        <button class="learn-more-btn" onclick="openModal(servicesData[4])">Learn More →</button>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">🏫</div>
+        <h3>School Management Systems</h3>
+        <p>Comprehensive digital platforms for schools — covering curriculum planning, teaching &amp; learning, assessment, attendance, reporting, and parent communication.</p>
+        <button class="learn-more-btn" onclick="openModal(servicesData[5])">Learn More →</button>
+      </div>
+
+    </div>
+    <div style="text-align:center; margin-top:2.5rem;">
+      <a href="services.html" class="btn btn-outline">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS BAND ===== -->
+<section class="stats-band">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-num" data-count="300" data-suffix="+">0+</span>
+        <span class="stat-label">Clients Served</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <span class="stat-num" data-count="500" data-suffix="+">0+</span>
+        <span class="stat-label">Projects Completed</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <span class="stat-num" data-count="3" data-suffix="">0</span>
+        <span class="stat-label">East African Countries</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <span class="stat-num" data-count="20" data-suffix="+">0+</span>
+        <span class="stat-label">Years of Excellence</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRODUCTS OVERVIEW ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">Our Products</p>
+      <h2>SYSCOOP — Enterprise ICT Solutions</h2>
+      <p>Purpose-built software systems designed for African cooperatives, agri-businesses, and institutions — digitizing operations from farm to payment.</p>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px,1fr)); gap:1.5rem;">
+
+      <div class="product-card reveal">
+        <div class="product-header">
+          <span class="product-badge">Agri-ERP</span>
+          <h3>SYSCOOP Agri &amp; Coffee</h3>
+          <p>Full ERP for coffee and dairy cooperatives — automating collection, weighing, payments and supply chain management.</p>
+        </div>
+        <div class="product-body">
+          <div class="product-feature"><span class="check">✔</span> Farm &amp; Member Management</div>
+          <div class="product-feature"><span class="check">✔</span> Milk/Coffee Collection Tracking</div>
+          <div class="product-feature"><span class="check">✔</span> Automated Payment Processing</div>
+          <div class="product-feature"><span class="check">✔</span> Supply Chain Digitization</div>
+          <a href="products.html" class="btn btn-primary" style="margin-top:1.25rem; width:100%; justify-content:center;">Learn More</a>
+        </div>
+      </div>
+
+      <div class="product-card reveal reveal-delay-1">
+        <div class="product-header">
+          <span class="product-badge">Accounting</span>
+          <h3>SYSCOOP Bookkeeping</h3>
+          <p>Cloud-based or desktop accounting solution tailored for SACCOs and cooperatives in the East African context.</p>
+        </div>
+        <div class="product-body">
+          <div class="product-feature"><span class="check">✔</span> SACCO-Ready Chart of Accounts</div>
+          <div class="product-feature"><span class="check">✔</span> Member Ledger Management</div>
+          <div class="product-feature"><span class="check">✔</span> Financial Reporting &amp; Audit Trails</div>
+          <div class="product-feature"><span class="check">✔</span> Cloud &amp; Desktop Modes</div>
+          <a href="products.html" class="btn btn-primary" style="margin-top:1.25rem; width:100%; justify-content:center;">Learn More</a>
+        </div>
+      </div>
+
+      <div class="product-card reveal reveal-delay-2">
+        <div class="product-header">
+          <span class="product-badge">Communication</span>
+          <h3>Bulk SMS Solution</h3>
+          <p>Powerful SMS broadcasting tools built to help corporates, cooperatives and schools communicate at scale.</p>
+        </div>
+        <div class="product-body">
+          <div class="product-feature"><span class="check">✔</span> Bulk Message Broadcasting</div>
+          <div class="product-feature"><span class="check">✔</span> Scheduled Messaging</div>
+          <div class="product-feature"><span class="check">✔</span> Member Group Targeting</div>
+          <div class="product-feature"><span class="check">✔</span> Delivery Reports &amp; Analytics</div>
+          <a href="products.html" class="btn btn-primary" style="margin-top:1.25rem; width:100%; justify-content:center;">Learn More</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section" style="background:#f8fbff;">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">Client Voices</p>
+      <h2>What Our Clients Say</h2>
+      <p>Real feedback from organizations we've partnered with across East Africa.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="quote">"</div>
+        <p>SYSCOOP Agri cut our payment processing time to just 2 days and reduced member payment complaints by over 70%. It transformed how we run our cooperative.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">JK</div>
+          <div>
+            <strong>James Kamau</strong>
+            <span>CEO, Central Kenya Coffee Cooperative</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="quote">"</div>
+        <p>The capacity building program transformed how our team approaches strategic planning. We now have clear frameworks and measurable goals that drive real results.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">AM</div>
+          <div>
+            <strong>Amina Mohamed</strong>
+            <span>Director, Nairobi Development NGO</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="quote">"</div>
+        <p>Their M&amp;E framework helped us report with confidence to USAID. The Leowa team brought deep expertise and met every deadline without fail.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">PO</div>
+          <div>
+            <strong>Peter Otieno</strong>
+            <span>Program Manager, USAID Kenya</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<section class="cta-band">
+  <div class="container">
+    <p class="eyebrow" style="color:#42a5f5;">Start Today</p>
+    <h2>Ready to Transform Your Organization?</h2>
+    <p>Whether you need a consulting engagement, a custom ICT solution, or a school management platform — we're ready to help you succeed.</p>
+    <div class="cta-actions">
+      <a href="contact.html" class="btn btn-white">Talk to Our Team</a>
+      <a href="services.html" class="btn btn-outline" style="border-color:rgba(255,255,255,0.4);color:#fff;">Explore Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <div class="logo-mark">L</div>
+          <div class="logo-text">
+            <strong style="color:#fff;">Leowa Associates</strong>
+            <span style="color:#42a5f5;">Management Consulting &amp; ICT</span>
+          </div>
+        </div>
+        <p>African-led management consulting and ICT solutions firm serving Kenya, Uganda, and Tanzania since 2004. HighView Plaza, Kiambu Road, Nairobi.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html#capacity">Capacity Building</a></li>
+          <li><a href="services.html#me">M&amp;E</a></li>
+          <li><a href="services.html#projects">Project Management</a></li>
+          <li><a href="services.html#training">Training</a></li>
+          <li><a href="services.html#strategic">Strategic Planning</a></li>
+          <li><a href="services.html#schools">School Systems</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="clients.html">Our Clients</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+254728843553">+254 728 843 553</a></li>
+          <li><a href="mailto:info@leowassociates.co.ke">info@leowassociates.co.ke</a></li>
+          <li><a href="#">HighView Plaza, Kiambu Road</a></li>
+          <li><a href="#">Nairobi, Kenya</a></li>
+          <li><a href="#">Mon–Fri: 9AM – 6PM</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Leowa Associates Limited. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== MODAL ===== -->
+<div class="modal-overlay" id="serviceModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-icon" id="modal-icon">🏛️</div>
+    <h2 id="modal-title">Service Title</h2>
+    <p class="modal-intro" id="modal-intro">Intro text here.</p>
+    <div class="modal-features" id="modal-features"></div>
+    <div class="modal-clients" id="modal-clients-section">
+      <h4>Related Clients &amp; Partners</h4>
+      <div class="client-tags" id="modal-clients"></div>
+    </div>
+    <div style="margin-top:1.75rem;">
+      <a href="contact.html" class="btn btn-primary" onclick="closeModal()" style="width:100%;justify-content:center;">Request This Service</a>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+<script>
+const servicesData = [
+  {
+    icon: '🏛️',
+    title: 'Institutional Capacity Building',
+    intro: 'We work with organizations across East Africa to strengthen their governance, systems, and human resources — building the internal capacity needed to deliver results independently and sustainably.',
+    features: [
+      { icon: '📐', title: 'Organizational Diagnosis', desc: 'Comprehensive assessments of existing systems, structures, and processes to identify gaps and improvement priorities.' },
+      { icon: '🔧', title: 'Systems Strengthening', desc: 'Designing and implementing improved operational systems, workflows, and management tools tailored to your context.' },
+      { icon: '👥', title: 'Governance & Leadership', desc: 'Board and senior leadership development, governance policy formulation, and accountability framework design.' },
+      { icon: '📈', title: 'Performance Management', desc: 'Developing KPI frameworks, staff appraisal systems, and performance review cycles that motivate and retain talent.' },
+      { icon: '🔁', title: 'Change Management', desc: 'Supporting organizations through institutional transitions with structured change management plans and stakeholder engagement.' },
+    ],
+    clients: ['USAID', 'World Bank', 'DANIDA', 'FAO', 'County Governments', 'SACCOs', 'NGOs']
+  },
+  {
+    icon: '📊',
+    title: 'Monitoring & Evaluation (M&E)',
+    intro: 'We design and conduct rigorous M&E assignments for international development agencies and NGOs — providing credible evidence of impact and actionable learning to improve program effectiveness.',
+    features: [
+      { icon: '🗺️', title: 'M&E Framework Design', desc: 'Developing Results Frameworks, Theories of Change, MEL plans, and indicator matrices aligned to donor requirements.' },
+      { icon: '📋', title: 'Baseline & Endline Studies', desc: 'Quantitative and qualitative surveys using statistically sound sampling methodologies to measure change over time.' },
+      { icon: '🔍', title: 'Mid-Term & Final Evaluations', desc: 'Independent program evaluations assessing relevance, efficiency, effectiveness, impact and sustainability.' },
+      { icon: '📡', title: 'Data Systems & MEAL', desc: 'Setting up digital data collection systems, dashboards, and reporting structures for real-time monitoring.' },
+      { icon: '📝', title: 'Learning & Knowledge Management', desc: 'Facilitating after-action reviews, pause-and-reflect sessions, and producing learning briefs for internal and donor audiences.' },
+    ],
+    clients: ['USAID Feed the Future', 'World Bank', 'DANIDA', 'FAO', 'WWF', 'John Deere Foundation']
+  },
+  {
+    icon: '📋',
+    title: 'Project Management',
+    intro: 'We design and manage complex development and business projects from inception to close — ensuring alignment with funder expectations, timely delivery, and measurable outcomes.',
+    features: [
+      { icon: '📌', title: 'Project Design & Proposal Writing', desc: 'Crafting compelling, technically sound project concepts and full proposals tailored to donor requirements and funding priorities.' },
+      { icon: '📅', title: 'Work Planning & Scheduling', desc: 'Developing detailed implementation plans with Gantt charts, milestone tracking, and resource allocation matrices.' },
+      { icon: '💰', title: 'Budget Management', desc: 'Preparing and managing project budgets, cost monitoring, variance analysis, and donor financial reporting.' },
+      { icon: '🤝', title: 'Stakeholder Coordination', desc: 'Managing relationships with government agencies, funders, partners, and beneficiary communities throughout project cycles.' },
+      { icon: '📦', title: 'Procurement & Logistics', desc: 'Overseeing procurement processes in line with donor policies, ensuring value-for-money and compliance at every stage.' },
+    ],
+    clients: ['USAID', 'World Bank', 'DANIDA', 'Government Ministries', 'County Governments']
+  },
+  {
+    icon: '🎓',
+    title: 'Training & Capacity Building',
+    intro: 'We design and deliver transformative training programs that build the skills, knowledge, and attitudes needed for individuals and organizations to achieve high performance.',
+    features: [
+      { icon: '📚', title: 'Needs Assessment', desc: 'Conducting training needs assessments to identify skill gaps and design contextually appropriate learning interventions.' },
+      { icon: '🏫', title: 'Customized Training Programs', desc: 'Developing bespoke curricula, manuals, and facilitation guides for leadership, management, technical, and soft-skill topics.' },
+      { icon: '🖥️', title: 'In-Person & Online Delivery', desc: 'Facilitating workshops, seminars, and online learning programs with experienced, multilingual trainers.' },
+      { icon: '🔄', title: 'Training of Trainers (ToT)', desc: 'Building internal training capacity within organizations so learning can be cascaded and sustained at scale.' },
+      { icon: '📊', title: 'Post-Training Evaluation', desc: 'Measuring learning outcomes and behavior change using Kirkpatrick-aligned evaluation frameworks.' },
+    ],
+    clients: ['USAID', 'NGOs', 'County Governments', 'SACCOs', 'Private Sector Companies']
+  },
+  {
+    icon: '🗺️',
+    title: 'Strategic & Business Planning',
+    intro: 'We help organizations define their direction, set ambitious but achievable goals, and build the operational roadmaps needed to get there — enabling confident leadership and sustainable growth.',
+    features: [
+      { icon: '🔭', title: 'Strategic Plan Development', desc: 'Facilitating participatory strategic planning processes that result in realistic, ownership-driven 3–5 year plans.' },
+      { icon: '📊', title: 'Business Development Planning', desc: 'Crafting business plans for new ventures, expansions, or fundraising — with market analysis, financials, and risk assessment.' },
+      { icon: '💡', title: 'Feasibility Studies', desc: 'Conducting technical, financial, and market feasibility studies to validate business ideas before investment.' },
+      { icon: '🏦', title: 'Investment Proposals', desc: 'Preparing bankable investment cases for private investors, development finance institutions, and grant funders.' },
+      { icon: '📈', title: 'Operational Planning', desc: 'Translating strategic direction into annual workplans with resource plans, OKRs, and accountability structures.' },
+    ],
+    clients: ['SACCOs', 'Cooperatives', 'NGOs', 'Private Businesses', 'Government Agencies']
+  },
+  {
+    icon: '🏫',
+    title: 'School Management Systems',
+    intro: 'We provide comprehensive digital platforms for schools — an integrated system covering curriculum, teaching & learning, assessment, reporting, attendance, and communication — inspired by leading global platforms.',
+    features: [
+      { icon: '📖', title: 'Curriculum Planning & Management', desc: 'Collaboratively plan and align curriculum across subjects, terms, and grade levels with built-in standards frameworks for CBC, IGCSE, IB, and more.' },
+      { icon: '🧑‍🏫', title: 'Teaching & Learning Tools', desc: 'Lesson planning, resource sharing, assignment submission, and class activity tracking — all in one teacher dashboard.' },
+      { icon: '📝', title: 'Assessment & Gradebook', desc: 'End-to-end assessment management from formative quizzes to end-of-term exams, with auto-calculated grades and rubric-based marking.' },
+      { icon: '📋', title: 'Attendance Management', desc: 'Daily attendance capture by class, subject, or school-wide — with automated alerts to parents and admin reports.' },
+      { icon: '📊', title: 'Report Cards & Transcripts', desc: 'Customizable term report cards and cumulative transcripts, auto-populated from gradebook data and teacher comments.' },
+      { icon: '💬', title: 'Parent & Community Communication', desc: 'Integrated messaging system for school announcements, parent-teacher communication, and progress sharing (similar to ManageBac KeyChat).' },
+      { icon: '🔒', title: 'Role-Based Access', desc: 'Separate secure portals for school administrators, teachers, students, and parents — each with tailored dashboards and permissions.' },
+      { icon: '📱', title: 'Mobile-Friendly Platform', desc: 'Fully responsive and accessible on mobile phones, tablets, and desktops — ensuring access for all school community members.' },
+    ],
+    clients: ['International Schools', 'Public Secondary Schools', 'Private Primary Schools', 'County Education Offices']
+  }
+];
+</script>
+</body>
+</html>
