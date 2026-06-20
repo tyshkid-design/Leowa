@@ -13,7 +13,7 @@
 <nav class="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <div class="logo-mark">L</div>
+      <img src="images/main logo.png" alt="Leowa Associates" class="logo-mark" />
       <div class="logo-text">
         <strong>Leowa Associates</strong>
         <span>Management Consulting &amp; ICT</span>
@@ -55,7 +55,6 @@
     <div class="tabs-wrapper" data-tabs>
       <button class="tab-btn active" data-tab="all">All Services</button>
       <button class="tab-btn" data-tab="consulting">Management Consulting</button>
-      <button class="tab-btn" data-tab="ict">ICT &amp; Technology</button>
       <button class="tab-btn" data-tab="schools">School Systems</button>
       <button class="tab-btn" data-tab="agri">Agri-Business</button>
     </div>
@@ -67,7 +66,7 @@
   <div class="container">
 
     <!-- ===== CONSULTING SERVICES ===== -->
-    <div id="capacity" style="margin-bottom:4rem;">
+    <div data-panel="consulting" style="margin-bottom:4rem;">
       <p class="eyebrow reveal">Management Consulting</p>
       <h2 class="reveal" style="color:#0a1f44; margin-bottom:2rem;">Building Stronger Organizations</h2>
       <div class="services-grid">
@@ -118,7 +117,7 @@
     </div>
 
     <!-- ===== SCHOOL MANAGEMENT ===== -->
-    <div id="schools" style="margin-bottom:4rem; padding-top:2rem; border-top:2px solid #e3f2fd;">
+    <div data-panel="schools" id="schools" style="margin-bottom:4rem; padding-top:2rem; border-top:2px solid #e3f2fd;">
       <p class="eyebrow reveal">Education Technology</p>
       <h2 class="reveal" style="color:#0a1f44; margin-bottom:1rem;">School Management Systems</h2>
       <p class="reveal" style="color:#4a6a9c; max-width:720px; margin-bottom:2.5rem; line-height:1.8;">Inspired by leading global platforms like ManageBac, our school management system is a comprehensive, curriculum-first learning platform designed for African schools — covering everything from lesson planning to parent communication.</p>
@@ -209,7 +208,7 @@
     </div>
 
     <!-- ===== AGRI-BUSINESS ===== -->
-    <div id="agri" style="padding-top:2rem; border-top:2px solid #e3f2fd;">
+    <div data-panel="agri" style="padding-top:2rem; border-top:2px solid #e3f2fd;">
       <p class="eyebrow reveal">Agri-Business</p>
       <h2 class="reveal" style="color:#0a1f44; margin-bottom:1rem;">Agricultural &amp; Cooperative Solutions</h2>
       <p class="reveal" style="color:#4a6a9c; max-width:720px; margin-bottom:2.5rem; line-height:1.8;">We support Coffee, Dairy, and Cereal farmers and cooperatives — helping them access finance, increase productivity, and make farming commercially viable through our SYSCOOP platform.</p>
@@ -255,7 +254,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="nav-logo">
-          <div class="logo-mark">L</div>
+          <img src="images/main logo.png" alt="Leowa Associates" class="logo-mark" />
           <div class="logo-text">
             <strong style="color:#fff;">Leowa Associates</strong>
             <span style="color:#42a5f5;">Management Consulting &amp; ICT</span>
@@ -331,5 +330,6 @@ const allServices = [
   { icon:'🌱', title:'Farmer Access to Finance', intro:'Advisory and digital systems support helping smallholder farmers build the digital financial records and market linkages needed to access credit, input financing, and fair market prices.', features:[{icon:'📒',title:'Digital Farm Records',desc:'Building creditworthy digital farm records that satisfy lender requirements.'},{icon:'🏦',title:'Financial Linkages',desc:'Connecting cooperatives and farmers to banks, MFIs, and agri-finance providers.'},{icon:'🌐',title:'Market Linkages',desc:'Digital platforms connecting farmers to buyers, processors, and exporters.'},{icon:'📚',title:'Financial Literacy Training',desc:'Practical training for farmers on saving, borrowing, and financial planning.'},{icon:'🔄',title:'Input Financing Support',desc:'Advisory on structured input credit schemes through cooperative channels.'}], clients:['USAID Feed the Future','World Bank','John Deere Foundation','FAO','Smallholder Cooperatives']}
 ];
 </script>
+<a href="https://wa.me/254728843553" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp" data-tooltip="Hello! For any inquiries contact us through WhatsApp"></a>
 </body>
 </html>

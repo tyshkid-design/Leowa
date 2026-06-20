@@ -4,7 +4,18 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ---- NAVBAR SCROLL ---- */
+  /* ---- HERO BACKGROUND SLIDESHOW ---- */
+const heroBgs = document.querySelectorAll('.hero-bg');
+if (heroBgs.length) {
+  let current = 0;
+  setInterval(() => {
+    heroBgs[current].classList.remove('active');
+    current = (current + 1) % heroBgs.length;
+    heroBgs[current].classList.add('active');
+  }, 3000);
+}
+
+/* ---- NAVBAR SCROLL ---- */
   const navbar = document.querySelector('.navbar');
   window.addEventListener('scroll', () => {
     navbar && navbar.classList.toggle('scrolled', window.scrollY > 40);
@@ -130,13 +141,17 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ---- TABS ---- */
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const group = btn.closest('[data-tabs]');
       const target = btn.dataset.tab;
-      group.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      group.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const panel = group.querySelector(`[data-panel="${target}"]`);
-      if (panel) panel.style.display = 'block';
+      const panels = document.querySelectorAll('[data-panel]');
+      panels.forEach(p => p.style.display = 'none');
+      if (target === 'all') {
+        panels.forEach(p => p.style.display = 'block');
+      } else {
+        const panel = document.querySelector(`[data-panel="${target}"]`);
+        if (panel) panel.style.display = 'block';
+      }
     });
   });
 
